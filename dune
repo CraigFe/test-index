@@ -1,0 +1,5 @@
+(executable
+ (name main)
+ (libraries index index.unix logs logs.fmt)
+ (flags (:standard -w -9+27-30-32-40@8
+          -safe-string)))
